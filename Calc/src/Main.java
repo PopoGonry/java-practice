@@ -6,6 +6,7 @@ public class Main {
 
         int num1, num2, num3;
 
+        System.out.print("숫자 3개를 입력하세요: ");
         num1 = scanner.nextInt();
         num2 = scanner.nextInt();
         num3 = scanner.nextInt();
@@ -13,4 +14,4 @@ public class Main {
         int result = num1 - num2 - num3;
         System.out.println("result = " + result);
     }
-}
+}   
